@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 525px;
+    width: 530px;
     height: 250px;
     overflow: hidden;
 }
@@ -16,7 +16,7 @@
     display: flex;
     animation: SliderAnimation 1s 2s infinite
     alternate;
-    width: 100%;
+    width: 280%;
 }
 
 .imagen{
