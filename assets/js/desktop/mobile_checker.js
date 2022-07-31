@@ -14,6 +14,6 @@ function check() {
 
     if (w <= 800) {
         red = true;
-        window.location = "/mobile/index.html";
+        window.location = "https://chocoretostonus.github.io/MobilePortfolio/";
     }
 }
