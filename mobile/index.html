@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- General -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio</title>
+
+        <!-- Desktop -->
+        <script src="../assets/libs/js/mobile-detect.min.js"></script>
+        <script src="../assets/js/mobile/desktop_checker.js"></script>
+
+
+        <!-- Imports -->        
+        <link rel="icon" href="../assets/images/IconPage.png">
+        <link rel="stylesheet" href="../assets/libs/css/pure-min.css">
+        <link rel="stylesheet" href="../assets/libs/css/grids-responsive-min.css">
+        <link rel="stylesheet" href="../assets/libs/css/montserrat-font.css">
+        <link rel="stylesheet" href="../assets/css/general-tooltip.css">
+        <link rel="stylesheet" href="../assets/css/general-skills.css">
+        <link rel="stylesheet" href="../assets/css/mobile.css">
+        <script src="../assets/libs/js/waff-query.min.js"></script>
+        <script src="../assets/libs/js/waff-effects.min.js"></script>
+        <script src="../assets/js/mobile/mobile_fade_io_controller.js"></script>
+
+    </head>
+    <body class="pure-g">
+
+        <!-- Header -->
+        <header class="pure-u-1">
+
+            <!-- Avatar -->
+            <div class="avatar-wrapper pure-u-1" >
+                <img class="avatar" src="../assets/images/Profile.jpg">
+            </div>
+
+            <!-- Short -->
+            <p class="desc nick pure-u-1">ChocoretoStonus</p>
+            <a class="desc github pure-u-1" href="https://github.com/ChocoretoStonus">github.com/ChocoretoStonus</a>
+            <a class="desc github pure-u-1" href="https://stackoverflow.com/users/3426515/dzikoysk">insta.com/ChocoretoStonus</a>
+            <a class="desc github pure-u-1" href="https://chocoreto-stonus.itch.io/">chocoreto-stonus.itch.io</a>
+
+        </header>
+
+        <!-- Content -->
+        <main class="tab-pane pure-u-1">
+
+            <!-- Menu -->
+            <nav class="tabs pure-u-1">
+                <a href="#about" name="about" class="about tab pure-u-1">About</a>
+                <a href="#skills" name="skills" class="skills tab pure-u-1">Skills</a>
+                <a href="#projects" name="projects" class="projects tab pure-u-1">Projects</a>
+                <a href="#music" name="music" class="music tab pure-u-1">Music</a>
+                <a href="#contact" name="contact" class="contact tab pure-u-1">Contact</a>
+            </nav>
+
+            <!-- Content of "About" tab -->
+            <div id="about" class="tab-content tab-about pure-u-1"></div>
+
+            <!-- Content of "Skills" tab -->
+            <div id="skills" class="tab-content tab-skills pure-u-1"></div>
+
+            <!-- Content of "Projects" tab -->
+            <div id="projects" class="tab-content tab-projects pure-u-1"></div>
+
+            <!-- Content of "Music" tab -->
+            <div id="music" class="tab-content tab-music pure-u-1"></div>
+
+            <!-- Content of "Contact" tab -->
+            <div id="contact" class="tab-content tab-contact pure-u-1"></div>
+
+        </main>
+
+        <!-- Load content -->
+        <script src="../assets/js/content-loader.js"></script>
+        <script src="../assets/js/mobile/mobile_content.js"></script>
+
+        <!-- TabPane JS -->
+        <script src="../assets/js/tabs.js"></script>
+
+        <!-- Footer -->
+        <footer class="pure-u-1">~ github.com/ChocoretoStonus</footer>
+    </body>
+</html>
